@@ -1,17 +1,13 @@
-/**
- * OOPSBannerApp UC4 – Render OOPS as Banner using String Array and Loop
- * This program stores banner lines in a String array
- * and prints them using a for-each loop.
- */
+
 
 public class OOPSBannerAppUC4 {
 
     public static void main(String[] args) {
 
-        // Step 1: Create String array of size 7
+      
         String[] lines = new String[7];
 
-        // Step 2: Populate array using String.join()
+        
         lines[0] = String.join(" ",
                 "  ***  ",
                 "  ***  ",
@@ -61,7 +57,7 @@ public class OOPSBannerAppUC4 {
                 " ***** "
         );
 
-        // Step 3: Use for-each loop to print each line
+        
         for (String line : lines) {
             System.out.println(line);
         }
